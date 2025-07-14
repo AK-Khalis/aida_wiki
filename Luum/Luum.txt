@@ -1,0 +1,131 @@
+Title
+Luum Integration with Aida
+Doc
+## Introduction
+
+Luum devices are a vital component of the Aida system, providing advanced control and monitoring capabilities for various applications. These third-party devices enhance the functionality of Aida by allowing users to manage multiple ports and channels seamlessly. This guide provides a comprehensive overview of Luum devices, their integration with Aida, and step-by-step instructions for adding, editing, deleting, and controlling these devices.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/01.png)
+
+## Luum Devices Overview
+
+Luum devices come in different configurations based on the number of ports they support: 8, 24, and 48 ports. Each port on a Luum device has two channels, which can be individually controlled through the Aida application. Additionally, Luum devices include switches and sensors as inputs, further expanding their utility in various scenarios.
+
+### Key Features:
+- **Port and Channel Management:** Control each channel independently using the Aida application.
+- **Input Integration:** Utilize switches and sensors as inputs for more dynamic control setups.
+
+## Adding a Luum Device to Aida
+
+To integrate a new Luum device into the Aida system, follow these steps:
+
+1. **Navigate to Luum Setup:**
+   - Go to `Luum` > `Luum Setup` in the navigation sidebar.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/02.png)
+   
+2. **Add New Device:**
+   - Click the `Add New Luum Device` button.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/03.png)
+
+   - A popup modal window will appear.
+
+3. **Enter Device Details:**
+   - Fill in the required details: 
+     - Name
+     - IP Address/URL
+     - Username (default: user)
+     - Password (default: password)
+     - Number of ports
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/04.png)
+
+4. **Map Ports with Clusters:**
+   - Assign ports to clusters as needed.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/05.png)
+
+5. **Save the Device:**
+   - Click the `Save` button to add the Luum device to Aida.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/06.png)
+
+   - The device will be listed on the screen.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/07.png)
+
+## Editing a Luum Device
+
+To modify an existing Luum device, follow these steps:
+
+1. **Navigate to Luum Listing:**
+   - Go to the `Luum` listing page.
+
+2. **Edit Device:**
+   - Click the edit icon (pencil icon) next to the device you want to edit.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/08.png)
+
+   - A popup modal window will appear.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/09.png)
+
+3. **Make Modifications:**
+   - Update the necessary details.
+
+4. **Save Changes:**
+   - Click the `Save` button to apply the changes.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/10.png)
+
+   - The device listing will be updated accordingly.
+
+## Deleting a Luum Device
+
+To remove a Luum device from the Aida system, follow these steps:
+
+1. **Navigate to Luum Listing:**
+   - Go to the `Luum` listing page.
+
+2. **Delete Device:**
+   - Click the delete icon (trash icon) next to the device you want to remove.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/11.png)
+
+   - A confirmation popup will appear.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/12.png)
+
+3. **Confirm Deletion:**
+   - Confirm the deletion.
+   - The device will be removed from the listing.
+
+## Controlling a Luum Device
+
+To control a Luum device and adjust its channels, follow these steps:
+
+1. **Navigate to Luum Control:**
+   - Go to `Luum` > `Luum Control` in the navigation sidebar.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/13.png)
+
+2. **Select Target Device and Channel:**
+   - Choose the device and the specific channel you want to control.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/14.png)
+
+3. **Adjust Settings:**
+   - Set the desired fade time using the slider.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/15.png)
+
+   - Set the desired dim level using the slider.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/luum/16.png)
+
+   - The connected light dim level will change according to the settings for the selected channel.
+
+## Conclusion
+
+Integrating and managing Luum devices within the Aida system enhances the control and monitoring capabilities of your setup. By following the steps outlined in this guide, you can easily add, edit, delete, and control Luum devices, ensuring a seamless and efficient operation. Whether you are configuring ports and channels or adjusting light levels, Luum devices provide the flexibility and functionality needed for advanced applications.
