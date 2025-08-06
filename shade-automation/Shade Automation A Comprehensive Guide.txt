@@ -1,0 +1,292 @@
+# Introduction
+
+Shade automation is a cutting-edge technology designed to optimize comfort, energy efficiency, and convenience by automatically controlling window shades based on environmental parameters such as light intensity, room temperature, and occupancy. This system integrates various sensors and algorithms to adjust shades dynamically, ensuring the perfect balance of natural light and thermal comfort. While the system is automated, users can still manually control the shades using wall switches or software interfaces. In this guide, we will explore how shade automation works, how to configure and manage it, and the benefits it brings to modern smart homes and buildings.
+
+# How Does Shade Automation Work?
+
+### Sensors
+
+Shade automation relies on a variety of sensors to gather data from the environment:
+
+- **Light Sensors (Indoor and Window)**: These sensors measure the amount of natural light entering the room, both inside and at the window. The system uses this data to adjust the shades accordingly to maintain the desired light levels.
+  
+- **Temperature Sensors**: These sensors monitor the room temperature, allowing the system to adjust the shades for optimal thermal comfort. For example, shades might close during hot periods to reduce heat gain.
+
+- **Occupancy Sensors**: These sensors detect whether a room is occupied. If the room is unoccupied, the shades might automatically close to conserve energy, while they may open when the room is occupied.
+
+- **Weather API**: Some systems integrate with an outdoor weather API to respond to external conditions like light intensity and weather changes, ensuring the shades operate efficiently regardless of the outdoor environment.
+
+### Controllers
+
+The controller is the brain of the shade automation system, processing data from the sensors and making decisions:
+
+- **Central Control Unit**: This unit processes the data received from all connected sensors and determines whether to raise, lower, or adjust the shades based on pre-set rules or algorithms.
+
+- **Manual Override**: Despite the automation, users can manually control the shades using wall switches, remote controls, or a mobile app. This provides flexibility and ensures that the user has ultimate control over their environment.
+
+### Actuators
+
+Actuators are the components that physically move the shades:
+
+- **Motors**: These devices are controlled by signals from the central control unit and are responsible for raising or lowering the shades as needed.
+
+### Smart Algorithms
+
+The system uses smart algorithms to decide the optimal position for the shades based on sensor inputs:
+
+- **Light Level Adjustment**: If indoor light levels are low and the room is occupied, the shades may open to let in more natural light. Conversely, if the indoor light is too bright or the temperature is too high, the shades may close to reduce glare and heat gain.
+
+- **Temperature Optimization**: The shades may automatically lower if the room temperature exceeds a certain threshold, especially if the sun is shining directly into the room.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/ShadeAutomationDiagram.png)
+
+### Integration with Other Systems
+
+Shade automation can be part of a broader smart home or building management system, integrating with:
+
+- **HVAC Systems**: To enhance energy efficiency by coordinating the shades with heating and cooling systems.
+- **Lighting Controls**: To optimize the use of natural and artificial light.
+- **Security Systems**: To ensure privacy and security by adjusting shades based on occupancy and time of day.
+
+# How to Enable or Disable Shade Automation
+
+1. Navigate to **Instance Setup** under the management section in the sidebar menu.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/module/01.png)
+
+2. Locate the **Shade Automation toggler**.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/module/02.png)
+
+3. Toggle the switch On/Off to enable or disable the Shade Automation module.
+
+# Sensor Management of Shade Automation
+
+## How to Map Shade Automation Sensors
+
+1. Go to **Sensor Mapping** under the Shade Automation section in the sidebar menu.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/01.png)
+
+2. View all existing configuration mappings.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/02.png)
+
+3. Click on **Add shade automation mapping** to create a new mapping.
+4. In the popup window, enter the mapping name and select the cluster.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/03.png)
+
+5. Based on the cluster selection, add the relevant sensors by selecting the node and input connected to the sensor.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/04.png)
+
+6. Configure the sensor settings, including the frequency of data transmission.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/05.png)
+
+7. If there is no outdoor light sensor, toggle the **Apply weather data** option to ON and set up the Weather API.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/06.png)
+
+8. Click the **Save** button to finalize the sensor mapping.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/07.png)
+
+
+## How to Edit Shade Automation Sensor Mapping
+
+1. Navigate to **Sensor Mapping** under the Shade Automation section.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/01.png)
+
+2. View all existing mappings.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/02.png)
+
+3. Click the **Edit** icon next to the desired mapping.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/08.png)
+
+4. Make the necessary changes in the popup window.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/09.png)
+
+5. Click **Save** to update the sensor mapping.
+
+## How to Delete Shade Automation Sensor Mapping
+
+1. Go to **Sensor Mapping** under the Shade Automation section.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/01.png)
+
+2. View the list of all mappings.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/02.png)
+
+3. Click the **Delete** icon next to the mapping you wish to remove.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/10.png)
+
+4. Confirm the deletion in the popup window by clicking **OK**.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/mapping/11.png)
+
+
+# Configuration setup of Shade Automation
+
+## How to Configure Shade Automation
+
+1. Navigate to **Setup** under the Shade Automation section in the sidebar menu.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/01.png)
+
+2. View all existing configuration settings.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/02e1.png)
+
+3. Click on **Add shade automation mapping** to create a new configuration.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/02e2.png)
+
+4. In the popup window, enter the settings name and select the target clusters.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/03e.png)
+
+5. Configure the sensors and other parameters as required.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/04e.png)
+
+6. Click **Save** to finalize the settings.
+
+## How to Edit Shade Automation Configurations
+
+1. Go to **Setup** under the Shade Automation section.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/01.png)
+
+2. View all configuration settings.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/02e1.png)
+
+3. Click the **Edit** icon next to the desired configuration.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/05e1.png)
+
+4. Make the necessary changes in the popup window.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/06e.png)
+
+5. Click **Save** to update the configuration.
+
+## How to Delete Shade Automation Configurations
+
+1. Navigate to **Setup** under the Shade Automation section.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/01.png)
+
+2. View the list of all configurations.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/02e1.png)
+
+3. Click the **Delete** icon next to the configuration you wish to remove.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/07e1.png)
+
+4. Confirm the deletion by clicking **OK** in the popup window.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/08.png)
+
+
+
+# AI Feature in Shade Automation
+
+The **AI feature** in Shade Automation is designed to intelligently manage shade positions to maintain target light levels within clusters. This dynamic system adjusts shades based on real-time indoor and outdoor light measurements, along with the current shade positions, to provide an optimal lighting environment. By incorporating artificial intelligence, the system learns from past changes and refines its behavior, enhancing user comfort while maintaining energy efficiency.
+
+## How Does AI Feature Work?
+
+The AI feature operates by adjusting the shade positions to achieve the target light levels. The decision-making process is based on:
+- **Current indoor and outdoor light levels**
+- **Current shade position**
+- **Target light level in a specific cluster**
+
+This system is continually learning. Changes in shade automation are sent to the cloud anonymously, where the AI uses this data to improve its algorithms and decision-making processes over time.
+
+## How to Enable AI Features in Shade Automation?
+
+To enable the AI automation feature, follow these steps:
+
+1. Navigate to the **Setup** section under **Shade Automation**.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/01.png)
+
+2. Click the **Enable AI Automation** button located in the top-right corner.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/sai02.png)
+
+3. A confirmation modal will appear.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/sai04.png)
+
+4. Click the **Continue** button to enable the AI feature in Shade Automation.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/02e1.png)
+
+## How to Disable AI Features in Shade Automation?
+
+If you want to disable the AI automation feature:
+
+1. Navigate to the **Setup** section under **Shade Automation**.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/01.png)
+
+2. Click the **Enabled AI Automation** button located in the top-right corner.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/sai03.png)
+
+3. The system will disable the AI feature in Shade Automation.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/configure/sai01.png)
+
+The AI feature in Shade Automation brings advanced light management capabilities, offering an efficient way to balance indoor light conditions while optimizing shade movement. With automatic learning from previous adjustments, this feature improves over time, providing an evolving and smarter solution. Users have the flexibility to easily enable or disable the feature depending on their preferences.
+
+
+# Shade Automation Log
+
+The Shade Automation Log feature in Aida provides users with a detailed view of the last 24 hours of shade automation activities. This feature is essential for users who need to monitor and analyze the automation events that have occurred, ensuring that the system is functioning as expected. The log offers insights into which shade automations were triggered, in which clusters they occurred, and the details of the actions taken.
+
+## Viewing the Shade Automation Log
+
+To access the Shade Automation Log:
+
+1. **Navigate to the Shade Automation Log**:
+   - Go to **Shade Automation ⇒ Log** from the sidebar.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/log/01.png)
+
+   - The log records will be displayed.
+
+2. **Understanding the Log Records**:
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-automation/log/02.png)
+
+   - The log provides a comprehensive record of shade automations that have occurred in the last 24 hours.
+   - Users can identify which shade automation was triggered and in which cluster it occurred.
+   - The log also includes columns that display the logging levels of sensors, providing a clear overview of sensor activities.
+   - The **Description** column details the actions taken during the automation process, allowing users to understand the specific changes made.
+
+## Filtering the Shade Automation Log
+
+To make it easier to find specific records, Aida allows users to filter the log records:
+
+1. **Filtering by Automation Name**:
+   - Users can filter the log records by the name of the automation, helping them to quickly locate relevant entries.
+
+2. **Filtering by Cluster**:
+   - Additionally, users can filter the log by cluster, enabling them to focus on automation events within a specific area of interest.
+
+# Conclusion
+
+Shade automation offers a sophisticated and user-friendly solution to managing natural light, temperature, and privacy within any space. By leveraging advanced sensors, smart algorithms, and integration with other building systems, shade automation enhances both comfort and energy efficiency. Users can benefit from the convenience of automated control while still retaining the ability to manually adjust settings when needed. Proper configuration and management of the shade automation system ensure optimal performance, making it an essential component of modern smart homes and buildings.
+
+The Shade Automation Log is a valuable tool in Aida, providing users with the ability to track and review the shade automation activities within their system. By offering detailed logs, filtering options, and clear descriptions of actions taken, Aida ensures that users can maintain control over their automation processes, troubleshoot issues, and optimize system performance. Whether you are monitoring a single cluster or managing multiple clusters, the Shade Automation Log provides the insights you need to keep your system running smoothly.
