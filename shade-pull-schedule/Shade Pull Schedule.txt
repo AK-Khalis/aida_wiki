@@ -1,0 +1,118 @@
+## Introduction
+Shade management is a critical component in Aida, allowing users to integrate, control, and automate shades for optimal performance. Traditionally, adding individual shades and mapping them to clusters has been a tedious and time-consuming process, especially when dealing with a large number of shades. To streamline this process, the Shade Pull Schedule feature was introduced. This feature simplifies the addition of multiple shades by enabling bulk uploads through an Excel template, significantly reducing setup time and effort.
+
+This document provides a comprehensive guide on how to use the Shade Pull Schedule feature, from downloading the template to monitoring the status of scheduled shades. By the end of this guide, users will be well-equipped to leverage this functionality to manage their shades effectively and efficiently.
+
+---
+
+## Steps to Use Shade Pull Schedule
+
+1. **Access the Shade Pull Schedule**
+   - Navigate to the `Shade` menu on the left sidebar.
+   - Select the `Shade Pull Schedule` option.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/01.png)
+
+2. **Download the Template File**
+   - Click the `Download Template` button to get the Excel file template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/02.png)
+
+3. **Fill in Shade Details**
+   - Open the template file and input the required details, including:
+     - **IP Address**
+     - **Name**
+     - **Cluster**
+     - **Shade Type**
+     - **Version**
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/03.png)
+
+4. **Import the File**
+   - Click the `Import Schedule` button to upload the completed file.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/04.png)
+
+   - Upload file through uploader
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/05.png)
+
+   - After verification, the shade details will appear in a modal.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/06.png)
+
+   - Review and edit the details if necessary.
+
+5. **Fetch Shades**
+   - Click the `Import` button to fetch shades based on the provided data.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/07.png)
+
+   - This shade pull schedule will automatically appear in the pull schedule listing page.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/08.png)
+
+6. **Monitor Shade Pull Scheduling**
+   - Click the `Eye` icon in the listing to view the shades.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/09.png)
+
+   - Listing
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/10.png)
+
+   - Click the `Eye` icon in the listing to view the status of each shade:
+
+     - **Fetching**: The system is searching for the shades.
+     - **Active**: The shade was found and is responsive.
+     - **Inactive/No Response**: The shade is either inactive or not connected to the instance.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/11.png)
+
+---
+
+## Frequently Asked Questions
+
+### 1. Can I re-populate an already uploaded shade details Excel file?
+   - **Yes**, users can re-populate an uploaded schedule file by clicking the `Re-populate` icon.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/15.png)
+
+   - It will showing a confirm modal, Click Yes to re-populate
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/16.png) 
+
+### 2. Can I download an already uploaded shade details Excel file?
+   - **Yes**, users can download an uploaded schedule file by clicking the `Download` icon.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/17.png)
+
+### 3. Can I delete an already uploaded shade details Excel file?
+   - **Yes**, users can delete an uploaded schedule file by clicking the `Trash` icon.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/18.png)
+
+   - It will showing a confirm modal, Click Yes to delete
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/19.png)
+
+---
+
+## Shade Setup Changes while Pull Schedule
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/12.png)
+
+### Before Pull Schedule
+(*Insert a screenshot or diagram of the setup page before importing the schedule.*)
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/13.png)
+
+### After Pull Schedule
+(*Insert a screenshot or diagram of the setup page after importing the schedule.*)
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/shade-pull-schedule/14.png)
+
+---
+
+## Conclusion
+The Shade Pull Schedule feature in Aida is a game-changer for managing large numbers of shades with ease and efficiency. By allowing bulk uploads via an Excel template and providing detailed status monitoring, this feature minimizes manual intervention and reduces setup time significantly. Whether you are configuring shades for the first time or updating existing schedules, the Shade Pull Schedule offers a seamless experience tailored to meet user needs. Embrace this functionality to enhance your shade management process and focus on achieving optimal shade performance.

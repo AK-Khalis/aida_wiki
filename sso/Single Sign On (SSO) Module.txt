@@ -1,0 +1,34 @@
+Single Sign-On (SSO) is a user authentication process that allows users to access multiple applications or systems with a single set of login credentials. Instead of having separate usernames and passwords for each application, users can authenticate once and gain access to all authorized resources without the need to re-enter credentials.
+
+# Enable Single Sign-On (SSO)
+Enable the SSO module by navigating to Management -> Instant Setup -> SSO
+
+<img width="452" alt="image" src="https://github.com/AK-Khalis/aida_wiki/assets/66630992/eb964f37-3df8-44a8-ba88-17f054d174a8">
+
+# Single Sign-On (SSO) Configuration Page
+If the SSO module is enabled the SSO Configuration menu will be displayed within the Configuration menu.
+
+<img width="452" alt="image" src="https://github.com/AK-Khalis/aida_wiki/assets/66630992/8db63af5-f08d-4e9b-b0ba-ec53428e8765">
+
+The SSO configuration consists of two parts: URLs to be defined in your SSO provider and the Metadata URL from the SSO provider.
+
+## URLs to be defined in your SSO provider
+The URLs referenced in your SSO provider settings are the specific web addresses you configure within your Single Sign-On (SSO) provider. These URLs typically include the Single Sign-On URL, Audience URI (SP Entity ID), and Relay State.
+
+You can copy the Single Sign-On URL, Audience URI (SP Entity ID), and Relay State for using with your SSO provider.
+
+## Metadata URL from SSO provider
+A metadata URL from an SSO (Single Sign-On) provider typically refers to a web address that hosts metadata information about the SSO service. This metadata includes details such as the SSO provider's identity, supported authentication protocols, encryption methods, and other relevant configuration settings. Integrating this metadata into an SSO client application allows for seamless authentication and authorization processes, enabling users to access multiple services with a single set of credentials.
+
+This section includes the Metadata URL and Role Attribute Name. The Metadata URL is editable, allowing you to change its value. The Role Attribute Name is also editable, with the default value set to 'userType'.
+
+<img width="452" alt="image" src="https://github.com/AK-Khalis/aida_wiki/assets/66630992/b484f97a-17a7-4097-88c7-cd498dde9a31">
+
+# Login with Single Sign-On (SSO)
+Once SSO configuration is setup correctly, then the 'Login in with SSO' link will appear in the login box.
+
+<img width="452" alt="image" src="https://github.com/AK-Khalis/aida_wiki/assets/66630992/dbf006a0-526b-4f14-9995-371cde36f30a">
+
+
+
+
