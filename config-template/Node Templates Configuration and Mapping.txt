@@ -1,0 +1,241 @@
+# Node Configuration Templates
+
+## Overview
+
+Node configuration templates allow the admin user to define default properties for different types of nodes in the system. There are two types of nodes: "**2 Out Node (Regular Node)**" and "**Supernode**". The configuration and mapping options are accessible in the Configuration menu on the left side panel.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct1.png)
+
+## How to create a Node Configuration Template Configuration?
+
+### 1. 2 Out Node (Regular Node)
+
+   - Click on the "**Create 2 Out Node Template**" button.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct2.png)
+
+   - A modal will appear to configure default properties.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct3.png)
+
+   - Click the "Save" button to create a new template, listed in the Template list table.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct4.png)
+
+### 2. Supernode
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ns51.png)
+
+   - Click on the "**Create Super Node Template**" button.
+   - A modal will appear to configure default properties.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn01.png)
+
+   - Fill template name and CC / CV details
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn02.png)
+
+   - Fill Color Control details
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn03.png)
+
+   - Fill max watt details, Total max watt of all channels should be less than or equal to 80.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn04.png)
+
+   - Fill Fade time details, fade time per channel is a number between 0 and 1000
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn05.png)
+
+   - Fill input channel details, input has different values select one from dropdown.
+   - Occupancy Low to High has two additional parameters as below
+       - Occupied - values between 0 and 60
+       - Vacant - values between 0 and 360
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn06.png)
+
+   - Fill channel event action details from the dropdown.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn07.png)
+
+   - Fill hold time details, hold time value in between 0 and 100.
+
+   - Emergeny check is used to change mode of emergency
+
+   - Click the "Save" button to create a new template, listed in the Template list table.
+
+## Viewing Template Details
+
+   - The listing provides limited information. Click on the eye icon to view detailed information about a specific template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct7.png)
+
+## How to edit a Node Configuration Template?
+
+   - Click on the edit pencil icon in the listing against the template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct5.png)
+
+   - A modal for the type of node with default configuration properties will appear.
+
+For 2 Out Node
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct6.png)
+
+For Super Node
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/sn08.png)
+
+   - Make the necessary changes and click the "Save" button to modify the template.
+
+## How to delete a Node Configuration Template?
+
+   - Click on the delete trash icon against the template in the list.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct8.png)
+
+   - A confirmation modal will appear to delete the template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/nct9.png)
+
+   - After confirmation, the template will be deleted and removed from the listing.
+
+# Node Template Mapping
+
+## Overview
+
+Node template mapping allows the admin user to map a defined template to a node, enabling the node to inherit its default properties from the template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm1.png)
+
+## How to map template to Node(s)?
+
+   - Click on the "**Create New Config Mapping**" button.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm2.png)
+
+   - The Config Mapping modal window will appear.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm3.png)
+
+   - Enter a Mapping Name and select a Template from the dropdown.
+   - Select target Node(s).
+   - Click the "Save" button to map the selected template to the target node(s).
+   - The mapping will be displayed in the listing.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm31.png)
+
+
+## How to modify the Node Template Mapping?
+
+   - Click on the edit pencil icon against the node mapping in the listing.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm4.png)
+
+   - The Config Mapping modal window with saved details will appear.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm5.png)
+
+   - Modify the details and click the "Save" button to apply changes.
+
+## How to remove a Node Configuration Mapping?
+
+   - Click on the delete trash icon against the template in the list.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm6.png)
+
+   - A confirmation modal will appear to delete the mapping.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ntm7.png)
+
+   - After confirmation, the template mapping will be deleted and removed from the listing.
+
+# Apply Node Template Log
+
+## Overview
+The Apply Node Template Log feature provides a comprehensive record of template application events for nodes. It allows Super Admins to monitor and manage the templates applied to individual nodes within the system.
+
+- Super Admins have the additional capability to access the last 100 lines of the log file directly for quick insights.
+- The log files are crucial for tracking changes, diagnosing issues, and ensuring the transparency of template applications across the system.
+- Super Admins have the additional capability to access the last 100 lines of the log file directly for quick insights.
+
+## Log Entry Details
+**Log Content:**
+   - Super Admins have the privilege to view the log entries for all nodes in the system.
+   - The log entry includes information on which template was applied to the node.
+   - It specifies the timestamp of when the template was applied.
+   - Indicates the currently applied template for the node.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/log1.png)
+
+## Log File Retrieval
+**Understanding Log Table:**
+   - Familiarize yourself with the log table structure, which displays details about template application events.
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/log2.png)
+
+## Viewing Log Files for Super Nodes
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/log3.png)
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/log4.png)
+
+## Downloading Log Files for Super Nodes
+   - Super Admins can download log files for each node by following the steps illustrated in the provided image.
+   ![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/log5.png)
+
+# Apply Node Template Log Version 2
+
+## Overview
+The **Apply Node Template Log** feature provides a comprehensive record of template application events for nodes within the system. This feature is designed to allow Super Admins to monitor and manage the templates applied to individual nodes, ensuring that the process is transparent and any issues can be quickly identified and addressed.
+
+## Key Features
+- **Comprehensive Logging**: Every event of template application to nodes is recorded in the log.
+- **Last 100 Lines Access**: Super Admins can access the last 100 lines of the log file directly for quick insights.
+- **Tracking Changes**: The log files are crucial for tracking changes, diagnosing issues, and ensuring transparency in template applications.
+
+## Log Entry Details
+
+### Log Content:
+- **Visibility**: Super Admins have the privilege to view log entries for all nodes in the system.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv201.png)
+
+- **Map ID Information**: Each log entry includes information on the map ID of the applied template.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv201.png)
+
+- **Template Parameters**: Each mapping has an expanded view that includes details of the template parameters applied to the node.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv202.png)
+
+- **Timestamp**: The log specifies the timestamp of when the template was applied.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv203.png)
+
+- **Success or Failure**: The log clearly indicates whether the template application succeeded or failed.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv204.png)
+
+- **Error Details**: If the template application fails, users can identify which parameters failed.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv205.png)
+
+- **Retry Mechanism**: Users can retry applying the template to a node, selected nodes, or all failed nodes. This helps to reapply templates only to the nodes where the application previously failed, rather than to all nodes.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/logv206.png)
+
+
+## Usage
+Super Admins can utilize the **Apply Node Template Log** feature to:
+- **Monitor Template Applications**: Keep track of which templates are applied to which nodes.
+- **Diagnose Issues**: Quickly identify and diagnose issues with template applications.
+- **Ensure Transparency**: Maintain a clear record of all template applications for auditing purposes.
+- **Retry Failures**: Efficiently retry failed template applications, ensuring that all nodes receive the necessary updates without redundant applications.
+
+By leveraging these capabilities, Super Admins can effectively manage and troubleshoot template applications within their systems.
+
+###The flow diagram below illustrates the apply config to node process.
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/config-template/ApplyNodeTemplateCycle.png)
+
+## Conclusion
+
+In summary, the node configuration templates and mapping functionalities provide a robust framework for managing node properties efficiently. Admin users can create and modify templates for both regular nodes and Supernodes, ensuring that nodes are configured with the necessary properties consistently. The comprehensive logging and retry mechanisms enhance the system's reliability, allowing Super Admins to monitor template applications, diagnose issues, and maintain transparency.
+
