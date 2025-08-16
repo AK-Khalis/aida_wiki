@@ -1,0 +1,33 @@
+# Aida Login Screen
+
+## Overview
+The **Aida Login Screen** serves as the primary entry point for users to access and control their **Building AI Solution** environment.  
+It is designed to be user-friendly, providing clear input fields for authentication, along with essential links for user assistance and account recovery.  
+The clean and modern design reinforces the application's focus on a professional and intuitive user experience.
+
+---
+
+![Image](https://github.com/AK-Khalis/aida_wiki/blob/main/login/01.png)
+
+## Screen Elements
+
+### 1. Input Fields
+- **Username** – Text input field where users enter their username or account identifier.
+- **Password** – Secure text input field (characters are masked) where users provide their password for authentication.
+
+### 2. Login Button
+- **Log In** – Clickable button that, when activated after entering valid credentials, attempts to log the user into the Aida system.
+
+### 3. Links
+- **Help** – Hyperlink that redirects users to help documentation or provides on-screen assistance for the login process.
+- **Forgot Password?** – Hyperlink for initiating the password recovery process, usually sending a reset link to the registered email address.
+
+---
+
+## Key Highlights
+- Professional, clean, and modern UI design.
+- Clear navigation and input fields.
+- Direct access to support and recovery options.
+- Secure login process with password masking.
+
+
